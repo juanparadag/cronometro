@@ -1,0 +1,30 @@
+# Ignorar archivos y directorios del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignorar archivos específicos de VSCode
+.vscode/
+
+# Ignorar directorios de dependencias
+node_modules/
+npm-cache/
+
+# Ignorar archivos específicos de VirtualBox
+.VirtualBox/
+
+# Ignorar otros archivos y directorios del sistema
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Saved Games/
+Videos/
+WPS Cloud Files/
+ntuser.dat*

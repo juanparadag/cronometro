@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    display: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/madera.jpg) no-repeat center center/cover;
+    
+    height: 100vh;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 80vw;
+    max-width: 600px ;
+    min-height: 350px;
+    padding: 20px; 
+    background: url(images/fondo-blanco-sucio-cemento-natural-o-textura-antigua-piedra-como-pared-patron-retro-banner-pared-conceptual-grunge-material-o-construccion_1258-21329.avif);
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    flex-direction: column;
+    border: 5px solid black;
+    
+}
+
+#divCronometro {
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 3rem; 
+    margin-bottom: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#divBotones {
+    display: flex;
+    gap: 10px; 
+    
+}
+#Breset:hover {
+    background-color:#d90d0d ;
+}
+#start:hover {
+    background-color: #00d11f;
+}
+.botones {
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+    width: 80px;
+    height: 70px;
+    
+}
+
+.botones:hover {
+    background-color: #88998d; 
+}
+
+
+p {
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+#aceleradores {
+    display: none;
+    gap: 10px; 
+    padding-top: 10px;
+    
+}
+
+.boton2 {
+    padding: 5px;         /* Reduce el padding para hacerlo más pequeño */
+        /* Tamaño de fuente reducido */
+    cursor: pointer;
+    border-radius: 50%;   /* Hace el botón completamente redondo */
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+    width: 30px;          /* Ancho más pequeño */
+    height: 30px;         /* Altura más pequeña, igual al ancho */
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Centra el contenido dentro del botón */
+}
+
+.boton2:hover {
+    background-color: black;  /* Cambio de color al pasar el ratón */
+    color: white;
+    transform: scale(1.1);      /* Efecto de escala */
+    cursor: pointer;
+}
+
+.boton2 i {
+    margin-left: 0;  /* Eliminar espaciado innecesario */
+}
+
+#normal {
+    font-size: 0.7rem;
+}
+
+#mas-rapido {
+    font-size: 0.65rem;
+}
+
+#flash{ 
+    font-size: 0.65rem;
+}
